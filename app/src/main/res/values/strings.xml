@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NoteAppMVVM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">todo</string>
+    <string name="type_something">Type something...</string>
+    <string name="type_your_title">Type your title</string>
+    <string name="tyep">Type something...</string>
+    <string name="note_title">Note title</string>
+</resources>
