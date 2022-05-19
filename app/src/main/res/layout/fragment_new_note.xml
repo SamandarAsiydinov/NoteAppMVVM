@@ -38,8 +38,8 @@
                 android:ems="10"
                 android:hint="@string/type_your_title"
                 android:inputType="text"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
+                android:textColor="@color/green"
+                android:textColorHint="@color/green"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

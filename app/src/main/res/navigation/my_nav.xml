@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/my_nav.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.noteappmvvm.fragments.HomeFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_newNoteFragment"
+            app:destination="@id/newNoteFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_updateNoteFragment"
+            app:destination="@id/updateNoteFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/newNoteFragment"
+        android:name="com.example.noteappmvvm.fragments.NewNoteFragment"
+        android:label="fragment_new_note"
+        tools:layout="@layout/fragment_new_note">
+
+        <action
+            android:id="@+id/action_newNoteFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateNoteFragment"
+        android:name="com.example.noteappmvvm.fragments.UpdateNoteFragment"
+        android:label="fragment_update_note"
+        tools:layout="@layout/fragment_update_note">
+
+        <action
+            android:id="@+id/action_updateNoteFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+
+        <argument
+            android:name="note"
+            app:argType="com.example.noteappmvvm.model.Note"
+            app:nullable="true" />
+
+    </fragment>
 
 </navigation>

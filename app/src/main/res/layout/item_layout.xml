@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="200"
                     android:text="@string/note_title"
-                    android:textColor="@color/black"
+                    android:textColor="@color/green"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -55,6 +55,7 @@
                 android:text="@string/type_something"
                 android:textColor="@color/hint_color"
                 android:textSize="16sp" />
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

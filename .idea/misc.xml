@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2545" />
+        <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2545" />
         <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/layout/activity_main.xml" value="0.2863247863247863" />
         <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/layout/fragment_home.xml" value="0.2747863247863248" />
         <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/layout/fragment_new_note.xml" value="0.2863247863247863" />
         <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/layout/fragment_update_note.xml" value="0.2863247863247863" />
         <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/layout/item_layout.xml" value="0.2863247863247863" />
+        <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/menu/home_menu.xml" value="0.2863247863247863" />
+        <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/menu/menu_new_note.xml" value="0.2863247863247863" />
+        <entry key="..\:/AndroidProjects/MyAndroid/NoteAppMVVM/app/src/main/res/menu/menu_update_note.xml" value="0.28547008547008546" />
       </map>
     </option>
   </component>
